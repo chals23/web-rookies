@@ -6,6 +6,8 @@
 
 (function($) {
 
+
+
 	var	$window = $(window),
 		$body = $('body');
 
@@ -35,6 +37,7 @@
 		if (browser.mobile)
 			$body.addClass('is-mobile');
 
+		console.log(browser);
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
